@@ -1,0 +1,308 @@
+/* RESET CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+}
+/* RESET CSS*/
+
+
+/* CABEÇALHO INICIO*/
+.header {
+    text-transform: uppercase;
+    background-color: rgba(2, 2, 2);
+    padding: 2%;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    text-decoration: none;
+    
+}
+
+.header a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.header a span {
+    color: red;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    
+}
+
+.menu li {
+    margin-left: 1em;
+    border: 2px red solid;
+    border-radius: 30px;
+    list-style-type: none;
+}
+
+.menu li a {
+    display: block;
+    padding: 4px 8px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.menu li a:hover, 
+#ativo {
+    color: red;
+}
+
+/* CABEÇALHO FIM*/
+
+main {
+    background-image: linear-gradient( rgba(0,0,0),rgba(0, 0, 0, 0.651)),url(../img/7.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    width: 100%;
+}
+
+/* CONTEUDO INDEX INICIO*/
+
+.principal {
+    margin: 2%;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.80);
+    border-radius: 30px;
+}
+
+.principal h1 {
+    color: red;
+    text-transform: uppercase;
+    padding: 2%;
+    text-align: center;
+}
+.principal p {
+    color: lightgray;
+    padding: 2%;
+    text-align: center;
+}
+
+.secundario {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    width: 25%;
+
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.80);
+    border-radius: 30px;
+}
+.secundario h1,
+.secundario p {
+    color: red;
+    padding: 2%;
+}
+
+.secundario span {
+    color: gold;
+    font-size: 3rem;
+}
+.secundario img {
+    border-radius: 30px;
+}
+/* CONTEUDO INDEX FIM*/
+
+/* RODAPÉ INICIO*/
+footer {
+    background-color: rgba(2, 2, 2);
+    color: lightgray;
+}
+.copy {
+    text-align: center;
+    padding: 2px;
+}
+.copy a {
+    color: red;
+    text-decoration: none;
+}
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.endereço,
+.contato {
+    font-size: 18px;
+    padding: 30px;
+}
+.contato a {
+    text-decoration: none;
+    color: lightgray;
+}
+.contato a:hover {
+    text-decoration: none;
+    color: red;
+}
+.contato h1,
+.endereço h1 {
+    color: red;
+    font-size: 1.2rem;
+    
+}
+.contato span {
+    color: red;
+}
+/* RODAPÉ FIM*/
+
+/* CONTEUDO PAG2.HTML INICIO*/
+.conteudo-tabela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+}
+.conteudo-tabela h1 {
+    color: lightgray;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2%;
+}
+.tabela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2% 10%;
+    padding: 4%;
+}
+table{
+    font-size: 1em;
+    border: 2px solid red;
+    border-collapse: collapse;
+    color: rgb(199, 199, 199);
+}
+table td, table th  {
+    border: 2px solid red;
+    padding: 6px;
+}
+table tr:first-child, table tr:last-child {
+    background-color: rgba(255, 0, 0, 0.342);
+    color: rgb(255, 255, 255);
+}
+.filmes {
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.filmes img {
+    width: 10em;
+    height: 6em;
+    border-radius: 30px;
+}
+.estrela {
+    color: gold;
+}
+
+/* CONTEUDO PAG2.HTML FIM*/
+
+/* CONTEUDO PAG3.HTML INICIO*/
+
+.lista {
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 4%;
+}
+.lista h1 {
+    color: lightgray;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2%;
+}
+.lista ol {
+    padding: 1% 20%;
+    color: lightgray;
+}
+.lista li {
+    border: 2px solid red;
+    background-color: rgba(0, 0, 0, 0.651);
+    margin: 0% 2%;
+    padding: 1% 2%;
+    color: lightgray;
+}
+.lista li:nth-child(odd) {
+    background-color: rgba(255, 0, 0, 0.342);
+}
+
+.img-lista {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 4%;
+}
+
+.img-lista img {
+    border-radius: 30px;
+}
+
+
+/* CONTEUDO PAG3.HTML FIM*/
+
+
+/* CONTEUDO PAG4.HTML INICIO*/
+
+.forms {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.800),rgba(0, 0, 0, 0.200)),url("../img/3.jpg");
+    background-size: cover;
+    border: 4px solid red;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.452);
+    padding: 2% 10%;
+    margin: 2% 20% 2% 20%;
+    width: 65%;
+    border-radius: 40px;
+    color: red;
+}
+
+.forms input[type="text"], input[type="email"], .forms textarea, .forms select {
+    background-color: lightgray;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.forms input[type="submit"] {
+    font-size: 1.3rem;
+    background-color: #000000;
+    color: lightgray;
+    border: 2px solid #ff0000;
+    padding: 10px 50px; 
+    border-radius: 35px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.forms input[type="submit"]:hover {
+    color: #ff0000;
+}
+
+.formulario-botao {
+    margin: 10px;
+    text-align: center;
+}
+
+/* CONTEUDO PAG4.HTML FIM*/
